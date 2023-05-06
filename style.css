@@ -1,0 +1,105 @@
+#title {
+    font: 16px arial, verdanna;
+    text-align: center;
+    background-color: lightcyan;
+    width: 99%;
+    vertical-align: top;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid gray;
+}
+
+#population {
+    font: 16px arial, verdanna;
+    background-color: lightgray;
+    width: 99%;
+    display: flexbox;
+    vertical-align: top;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid gray;
+    min-height: 500px;
+    margin: 2px;
+}
+
+#controls {
+    font: 16px arial, verdanna;
+    background-color: lightgray;
+    width: 136px;
+    vertical-align: top;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 2px;
+    display:inline-block;
+}
+
+#parameters {
+    font: 16px arial, verdanna;
+    background-color: lightgray;
+    width: 136px;
+    vertical-align: top;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 2px;
+    display:inline-block;
+}
+
+#names {
+    font: 16px arial, verdanna;
+    background-color: lightgray;
+    width: 418px;
+    vertical-align: top;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 2px;
+    display:inline-block;
+}
+
+div div {
+    font: 16px arial, verdanna;
+    background-color: white;
+    display:inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 5px;
+    margin:2px;
+    border-radius: 2px;
+}
+
+.button {
+    font: 16px arial, verdanna;
+    background-color: rgb(156, 139, 253);
+    width: 120px;
+    display:inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+input {
+    width: 120px;
+}
+
+.name {
+    width: 400px;
+}
+
+.elite {
+    border: 2px solid red;
+}
+
+.mother {
+    background-color: lightpink;
+}
+
+.father {
+    background-color: lightblue;
+}
+
+.offspring {
+    background-color: lightgreen;
+}

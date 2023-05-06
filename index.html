@@ -1,0 +1,41 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Evolved Names</title>
+    <link type="text/css" rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="./util.js"></script>
+    <script type="text/javascript" src="./names.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</head>
+<body>
+<div id="title"></div>
+<div id="population"></div>
+<div id="controls">
+    <div id="step" class="button">
+        Step
+    </div>
+    <div id="nextgen" class="button">
+        Next Generation
+    </div>
+    <div id="run" class="button">
+        Run
+    </div>
+    <div id="restart" class="button">
+        Restart
+    </div>
+    <label for="speed">Simulation Speed</label>
+    <input type="range" id="speed" name="speed" min="0" max="1000" step="20">
+</div>
+<div id="parameters">
+    Population Size <input type="text" id="populationSize" value="100">
+    Mutation Rate <input type="text" id="mutationRate" value="0.05">
+    Elitism <input type="text" id="elitism" value="50">
+</div>
+<div id="names">
+    Target Name <input type="text" id="target" class="name" value="CHRISTOPER PAUL MARRIOTT">
+    Starting Values <input type="text" id="initial" class="name" value="">
+</div>
+</body>
+</html>
